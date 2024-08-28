@@ -190,7 +190,7 @@
 		<form method="post" action="usuarioNombre.html">
 			<div class="form-group mt-3">
 				<label>Modificar nombre: </label>
-				<input type="text" class="form-control bg-light mb-2 mt-2" name="nuevoNombre">
+				<input type="text" class="form-control bg-light mb-2 mt-2" placeholder="<%= usu.getNombre() %>" name="nuevoNombre">
 				<div class="col text-right">
 					<input type="submit" class="btn btn-primary mb-2 mt-2" value="Cambiar nombre" onclick="alert('Nombre actualizado')">
 				</div>
@@ -202,7 +202,7 @@
 		<form method="post" action="usuarioDireccion.html">
 			<div class="form-group mt-3">
 				<label>Modificar direcci&oacute;n: </label>
-				<input type="text" class="form-control bg-light mb-2 mt-2" name="nuevaDir">
+				<input type="text" class="form-control bg-light mb-2 mt-2" placeholder="<%= usu.getDireccion() %>" name="nuevaDir">
 				<div class="col text-right">
 					<input type="submit" class="btn btn-primary mb-2 mt-2" value="Cambiar Direcci&oacute;n" onclick="alert('Dirección actualizada')">
 				</div>
@@ -214,7 +214,7 @@
 		<form method="post" action="usuarioTlf.html">
 			<div class="form-group mt-3">
 				<label>Modificar tel&eacute;fono: </label>
-				<input type="text" class="form-control bg-light mb-2 mt-2" name="nuevoTlf">
+				<input type="text" class="form-control bg-light mb-2 mt-2" placeholder="<%= usu.getTelefono() %>" name="nuevoTlf">
 				<div class="col text-right">
 					<input type="submit" class="btn btn-primary mb-2 mt-2" value="Cambiar Tel&eacute;fono" onclick="alert('Teléfono actualizado')">
 				</div>
@@ -226,7 +226,7 @@
 		<form method="post" action="usuarioCorreo.html">
 			<div class="form-group mt-3">
 				<label>Modificar Correo electr&oacute;nico: </label>
-				<input type="text" class="form-control bg-light mb-2 mt-2" name="nuevoCorreo">
+				<input type="text" class="form-control bg-light mb-2 mt-2" placeholder="<%= usu.getCorreo() %>" name="nuevoCorreo">
 				<div class="col text-right">
 					<input type="submit" class="btn btn-primary mb-2 mt-2" onclick="alert('Correo actualizado')" value="Cambiar Correo electr&oacute;nico">
 				</div>
